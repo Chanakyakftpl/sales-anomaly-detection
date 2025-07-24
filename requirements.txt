@@ -1,0 +1,26 @@
+# Enhanced Sales Anomaly Detection API - Dependencies
+# Core Flask Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Database Connectivity
+SQLAlchemy==2.0.21
+PyMySQL==1.1.0
+cryptography==41.0.4
+
+# Data Processing
+pandas==2.1.1
+numpy==1.24.3
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Logging and Utilities
+Werkzeug==2.3.7
+
+# Production Server (Optional)
+gunicorn==21.2.0
+
+# Development Tools (Optional)
+pytest==7.4.2
+pytest-flask==1.2.0
